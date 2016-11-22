@@ -1,0 +1,90 @@
+
+
+/** {
+  border:1px solid red;
+}*/
+
+.container {
+ margin:100px;
+ border: 100px;
+}
+
+.grid {
+
+}
+
+.two-coloumns {
+}
+
+.grid-1:hover, .grid-2:hover, .grid-3:hover, .grid-4:hover, .grid-5:hover, .grid-6:hover {
+  transition: border-radius 0.05s;
+  border-radius: 50%;
+}
+
+.grid-1{
+  background-color: #FF72B8;
+  height:75px;
+  width:75px;
+  margin: 0px;
+}
+.grid-1:hover {
+  background-color: #16DC88;
+}
+
+.grid-2{
+  background-color:#F3EE78;
+  height:75px;
+  width:75px;
+  margin: 0px;
+}
+.grid-2:hover {
+  background-color:#B698FF;
+}
+
+
+.grid-3{
+  background-color:#16DC88;
+  height:75px;
+  width:75px;
+  margin: 0px;
+}
+
+.grid-3:hover {
+  background-color: #FF5A59;
+}
+
+
+.grid-4{
+  background-color:#B698FF;
+  height:75px;
+  width:75px;
+  margin: 0px;
+}
+
+.grid-4:hover {
+  background-color: #05FFFF;
+}
+
+
+.grid-5{
+  background-color: #FF5A59;
+  height:75px;
+  width:75px;
+  margin: 0px;
+}
+
+.grid-5:hover {
+  background-color: #FF72B8;
+}
+
+
+.grid-6{
+  background-color: #05FFFF;
+  height:75px;
+  width:75px;
+  margin: 0px;
+}
+
+.grid-6:hover {
+  background-color: #F3EE78;
+}

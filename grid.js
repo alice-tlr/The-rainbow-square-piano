@@ -6,11 +6,11 @@ function setEventListeners() {
   var gridElements = document.getElementsByClassName('grid');
   //2. for each element add a mouseover handler
   for(var i = 0; i < gridElements.length; i++){
-     gridElements[i].addEventListener('mouseover', playSound);
-     //gridElements[i].addEventListener('mouseleave', pauseSound)
+     gridElements[i].addEventListener('mouseover', bindSound);
+     gridElements[i].addEventListener('mouseleave', pauseSound)
   }
 
-  function playSound(event){
+  function bindSound(event){
      console.log(event);
      //event.target is the element where the event was triggered from (e.g. the div that was clicked)
      var sourceDiv = event.target;
@@ -30,7 +30,7 @@ function setEventListeners() {
 
 
 /*
-document.addEventListener('DOMContentLoaded', playSound)
+document.addEventListener('DOMContentLoaded', bindSound)
 
 
 var audioSounds = ["audioSounds1", "audioSounds2", "audioSounds3", "audioSounds4", "audioSounds5", "audioSounds6"];
@@ -38,7 +38,7 @@ var gridNum = ["grid-1", "grid-2", "grid-3", "grid-4", "grid-5", "grid-6"];
 var hoverOver = gridNum.length;
 
 
- function playSound(){
+ function bindSound(){
   for (i = 0; i < gridNum.length; i++){
 
   if (gridNum = "grid-1") {
